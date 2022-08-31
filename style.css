@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 54, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    width: 90%;
+    height: 300px;
+    border: 3px solid rgb(105, 184, 216);
+    color: aqua;
+}
+.first,.section1, .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.second, .timer{
+    display: flex;
+    justify-content: center;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.date {
+    font-size: 70px;
+}
+
+.time {
+    font-size: 130px;
+}
+
+.stopwatch{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons1{
+    width: 45%;
+
+}
+.forLoops{
+    width: 45%;
+    font-size: 23px;
+    text-align: center;
+}
+.numbers{
+    font-size: 60px;
+    display: flex;
+}
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(59, 54, 54);
+    border: 3px solid rgb(105, 184, 216);
+    color: aqua;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.timerMinutes{
+    font-size: 80px;
+}
+.timer{
+    font-size: 60px;
+}
